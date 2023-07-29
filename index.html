@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <title id="PageTitle">Demon Slayer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      nav ul li:last-child {
+        margin-right: 0;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: #ff6600;
+      }
+
+      main {
+        padding: 20px;
+        margin-bottom: 100px;
+      }
+
+      .player {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .player h2 {
+        color: #333;
+      }
+
+      .player ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .player ul li {
+        margin-bottom: 10px;
+      }
+
+      .player ul li a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+      }
+
+      .player ul li a:hover {
+        color: #ff6600;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background-color: #444;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Demon Slayer</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="https://articpolardev.github.io/demonslayerbr/">Temporada</a>
+        </li>
+        <li>
+          <a href="https://articpolardev.github.io/demonslayerbr/characters"
+            >Personagens</a
+          >
+        </li>
+        <li>
+          <a href="https://articpolardev.github.io/demonslayerbr/about"
+            >Sobre</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="player">
+        <h2 id="sectionText"></h2>
+        <center>
+          <div class="custom-video-player">
+            <video controls class="plyr" id="videoPlayer">
+              Seu navegador não suporta a reprodução de vídeo.
+            </video>
+          </div>
+        </center>
+      </section>
+    </main>
+
+    <footer>
+      <p>Todos os direitos reservados &copy; 2023 Demon Slayer.</p>
+    </footer>
+    <script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
